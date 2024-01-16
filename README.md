@@ -2,5 +2,4 @@
 Analysis of my data
 
 #Parts 
-
-#Motivation
+# cs210
