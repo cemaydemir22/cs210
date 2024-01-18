@@ -1,5 +1,6 @@
-# cs210
-Analysis of my data
+# Analysis of My Youtube Data
 
-#Parts 
-# cs210
+# Description
+This project is the project of the CS210 course at Sabancı University. The project is about analyzing my own Youtube data.
+
+# Contents
