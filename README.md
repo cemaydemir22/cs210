@@ -9,7 +9,8 @@ This project is the project of the CS210 course at Sabancı University. The proj
 2. [Data Source](#data-source)
 3. [Data Analysis](#data-analysis)
 4. [Findings](#results)
-5. [Limitations and future work](#limitations)
+5. [Limitations](#limitations)
+6. [Future Work](#future)
 
 
 
@@ -96,6 +97,45 @@ There is a significant relationship between months and the time spent on YouTube
 
 ## Findings<a name="results"></a>
 
+### Hypothesis Testing Results
+
+The chi-square test conducted to evaluate the relationship between months and YouTube usage provided compelling evidence to reject the null hypothesis. This indicates a significant relationship between the time spent on YouTube and the different months.
+
+### Monthly Patterns
+
+Visualizations further illuminated the nuances of YouTube usage across different months:
+
+- **Seasonal Trends:**
+  - Noticed distinct patterns in usage across various months, with notable increases in certain periods.
+  - [Include specific insights from your visualizations.]
+
+- **Time-of-Day Preferences:**
+  - Identified a concentration of YouTube usage primarily between 15:00 and 20:00, suggesting a peak activity period.
+  
+- **End-of-Month Surge:**
+  - Observed a consistent increase in YouTube usage towards the end of each month, indicating a temporal trend in user behavior.
+
+### Temporal Analysis
+
+- **Hourly Distribution:**
+  - Bar charts and time series analyses highlighted the distribution of YouTube usage throughout different hours.
+  - [Include specific insights or observations regarding hourly patterns.]
+
+### Machine Learning Model Predictions
+
+- **Decision Tree and Linear Regression:**
+  - The machine learning models, including decision tree and linear regression, provided additional insights into predictive patterns.
+  - [Include any notable outcomes or trends predicted by the models.]
+
+### Visual Representation
+
+- **Charts and Graphs:**
+  - Seaborn and Matplotlib visualizations effectively communicated the relationships and patterns uncovered during the analysis.
+  - [Include references or snippets of key visualizations.]
+
+### Conclusion
+
+The findings from this analysis provide a comprehensive understanding of YouTube usage patterns, emphasizing the impact of temporal factors, including months and hours. The rejection of the null hypothesis underscores the significance of temporal trends in influencing individual behaviors on the platform. These insights pave the way for deeper discussions on user engagement, content consumption preferences, and potential avenues for future research.
 
 
 
@@ -109,14 +149,59 @@ There is a significant relationship between months and the time spent on YouTube
 
 
 
-## Limitations and future work<a name="limitations"></a>
+## Limitations<a name="limitations"></a>
 
-...
+## Limitations
+
+### Data Limitations
+
+1. **Insufficient Information:**
+   - The dataset obtained through Google Takeout lacked certain crucial details, such as average time information. This limitation hindered a more comprehensive analysis of YouTube usage patterns.
+
+2. **Missing Values:**
+   - Several columns, aside from the 'time' column, contained a significant number of missing values. Notably, the absence of data in certain fields limited the depth and accuracy of the analysis.
+
+### Knowledge Limitations
+
+1. **Analytical Skills:**
+   - Limited knowledge in certain analytical techniques may have influenced the depth of the conclusions drawn from the analysis. Further expertise in specific statistical methods or machine learning algorithms could enhance the project's overall robustness.
+
+2. **Interpretation Challenges:**
+   - Interpretation of results may be subject to the analyst's understanding of the domain. The complexity of YouTube usage patterns may require additional domain-specific knowledge for more accurate insights.
+
+### Privacy Concerns
+
+1. **Limited Data Sharing:**
+   - Due to the private nature of the data, there were constraints on sharing detailed information, potentially impacting the overall quality of the analysis. This privacy consideration limited the extent to which certain findings and patterns could be shared.
 
 
 
+## Future Work<a name="future"></a>
 
+### Website Development
 
+1. **Creation of a Website:**
+   - Due to time constraints, the project did not include the development of a dedicated website. Future work could involve building a website to showcase the analysis, visualizations, and findings. This would enhance accessibility and provide a more interactive platform for users to explore the insights.
 
+### Data Analysis Enhancements
 
+1. **Inclusion of Average Video Time:**
+   - A future iteration of the analysis could incorporate information on the average duration of videos. This additional parameter would offer a more nuanced understanding of time spent on YouTube, considering variations in video length.
+
+2. **Header Analysis:**
+   - Exploring the impact of video titles and headers on user engagement could provide valuable insights. Future work might involve analyzing patterns related to specific video titles, assessing their influence on watch times, and uncovering potential correlations.
+
+### Learning and Skill Development
+
+1. **Skill Enhancement:**
+   - Invest time in expanding knowledge and skills related to statistical methods and machine learning algorithms. This would contribute to a more sophisticated and comprehensive analysis, potentially uncovering deeper insights.
+
+### Privacy Considerations
+
+1. **Ethical Data Handling:**
+   - Further explore methods for ethical data handling, considering privacy concerns. This could involve anonymization techniques or exploring ways to share insights while preserving user privacy.
+
+### Conclusion
+
+The outlined future work provides a roadmap for extending the current analysis. Building a website not only enhances the project's presentation but also contributes to skill development. Analyzing average video time and investigating the impact of headers adds layers of complexity to the exploration of YouTube usage patterns. The ongoing commitment to learning and addressing privacy considerations underscores a holistic approach to future endeavors.
 
