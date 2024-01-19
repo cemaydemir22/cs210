@@ -5,7 +5,7 @@ This project is the project of the CS210 course at Sabancı University. The proj
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Motivation](#motivation)
 2. [Data Source](#data-source)
 3. [Data Collection](#data-collection)
 4. [Data Cleaning](#data-cleaning)
@@ -24,7 +24,7 @@ This project is the project of the CS210 course at Sabancı University. The proj
 10. [Future Work](#future-work)
 11. [Conclusion](#conclusion)
 
-## Introduction<a name="introduction"></a>
+## Motivation<a name="motivation"></a>
 
 ...
 
