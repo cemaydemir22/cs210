@@ -18,7 +18,7 @@ This project is the project of the CS210 course at Sabancı University. The proj
 
 As a regular YouTube user, I was inspired for this project by my personal experience of spending a significant amount of time on the platform. YouTube has become an integral part of my daily routine; It serves as a versatile tool for a variety of activities, including listening to music and enhancing my learning experience by accessing educational content.
 
-The decision to analyze YouTube data stemmed from my desire to understand more deeply how I allocate my time on the platform. Realizing the impact this was having on my daily life, I sought to discover and uncover patterns in the data that could provide insights into my usage habits.
+The decision to analyze YouTube data is related with my desire to understand more deeply how I allocate my time on the platform. Realizing the impact this was having on my daily life, I sought to discover and uncover patterns in the data that could provide insights into my usage habits.
 
 ## Data Source<a name="data-source"></a>
 
@@ -93,7 +93,7 @@ There is a significant relationship between months and the time spent on YouTube
   - Explored temporal patterns using time series visualizations, offering insights into monthly trends.
 
 - **Pie Charts:**
-  - Presented a breakdown of time spent on YouTube during different hours, providing a visual summary of usage patterns.
+  - Presented the confusion matrix for machine learning model.
 
 ## Findings<a name="results"></a>
 
@@ -107,7 +107,7 @@ Visualizations further illuminated the nuances of YouTube usage across different
 
 - **Seasonal Trends:**
   - Noticed distinct patterns in usage across various months, with notable increases in certain periods.
-  - [Include specific insights from your visualizations.]
+  
 
 - **Time-of-Day Preferences:**
   - Identified a concentration of YouTube usage primarily between 15:00 and 20:00, suggesting a peak activity period.
@@ -119,19 +119,19 @@ Visualizations further illuminated the nuances of YouTube usage across different
 
 - **Hourly Distribution:**
   - Bar charts and time series analyses highlighted the distribution of YouTube usage throughout different hours.
-  - [Include specific insights or observations regarding hourly patterns.]
+  
 
 ### Machine Learning Model Predictions
 
 - **Decision Tree and Linear Regression:**
   - The machine learning models, including decision tree and linear regression, provided additional insights into predictive patterns.
-  - [Include any notable outcomes or trends predicted by the models.]
+  
 
 ### Visual Representation
 
 - **Charts and Graphs:**
   - Seaborn and Matplotlib visualizations effectively communicated the relationships and patterns uncovered during the analysis.
-  - [Include references or snippets of key visualizations.]
+  
 
 ### Conclusion
 
@@ -203,5 +203,5 @@ The findings from this analysis provide a comprehensive understanding of YouTube
 
 ### Conclusion
 
-The outlined future work provides a roadmap for extending the current analysis. Building a website not only enhances the project's presentation but also contributes to skill development. Analyzing average video time and investigating the impact of headers adds layers of complexity to the exploration of YouTube usage patterns. The ongoing commitment to learning and addressing privacy considerations underscores a holistic approach to future endeavors.
+The outlined future work provides a roadmap for extending the current analysis. Building a website not only enhances the project's presentation but also contributes to skill development. Analyzing average video time and investigating the impact of headers adds layers of complexity to the exploration of YouTube usage patterns.
 
