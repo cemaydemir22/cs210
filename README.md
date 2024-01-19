@@ -1,6 +1,6 @@
 # Analysis of My Youtube Data
 
-# Description
+## Description
 This project is the project of the CS210 course at Sabancı University. The project is about analyzing my own Youtube data.
 
 ## Table of Contents
@@ -8,7 +8,7 @@ This project is the project of the CS210 course at Sabancı University. The proj
 1. [Motivation](#motivation)
 2. [Data Source](#data-source)
 3. [Data Analysis](#data-analysis)
-4. [Results](#results)
+4. [Findings](#results)
 5. [Limitations and future work](#limitations)
 
 
@@ -94,7 +94,7 @@ There is a significant relationship between months and the time spent on YouTube
 - **Pie Charts:**
   - Presented a breakdown of time spent on YouTube during different hours, providing a visual summary of usage patterns.
 
-## Results<a name="results"></a>
+## Findings<a name="results"></a>
 
 
 
@@ -118,5 +118,5 @@ There is a significant relationship between months and the time spent on YouTube
 
 
 
-# motivation
+
 
