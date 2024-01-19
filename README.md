@@ -7,7 +7,7 @@ This project is the project of the CS210 course at Sabancı University. The proj
 
 1. [Motivation](#motivation)
 2. [Data Source](#data-source)
-3. [Data Collection](#data-collection)
+3. [Data Analysis](#data-analysis)
 4. [Data Cleaning](#data-cleaning)
 5. [Exploratory Data Analysis](#exploratory-data-analysis)
    - [Statistical Analysis](#statistical-analysis)
@@ -56,9 +56,54 @@ The dataset's JSON format allows for flexibility in exploration and analysis, en
 
 This personal dataset serves as the foundation for the subsequent exploratory data analysis, hypothesis testing, and machine learning models employed in the project.
 
-## Data Collection<a name="data-collection"></a>
+## Data Analysis<a name="data-analysis"></a>
 
-...
+### Preprocessing
+
+Upon converting the dataset to a DataFrame, the following preprocessing steps were undertaken:
+
+- **Handling Null Values:**
+  - Checked for null values in the general dataset.
+  - Specifically examined the 'time' column, crucial for the hypothesis testing phase, and confirmed the absence of null values.
+
+### Hypothesis Testing
+
+#### Null Hypothesis:
+There is no relationship between months and the time spent on YouTube.
+
+#### Alternative Hypothesis:
+There is a significant relationship between months and the time spent on YouTube.
+
+- **Creation of 'Season' Column:**
+  - A new column, 'season,' was introduced to investigate the relationship between months and YouTube usage.
+
+- **Exploration of Seasonal Patterns:**
+  - Analyzed time spent during different months, focusing on both summer and non-summer periods.
+  
+- **Statistical Tests:**
+  - Employed statistical methods such as Chi-square statistic and t-test to evaluate the null hypothesis.
+
+### Machine Learning Models
+
+- **Decision Tree and Linear Regression:**
+  - Applied machine learning models to further explore and predict patterns in YouTube usage.
+  
+- **Model Evaluation:**
+  - Assessed the performance of the models in capturing and predicting time-related patterns.
+
+### Visualization
+
+- **Seaborn and Matplotlib:**
+  - Utilized Seaborn and Matplotlib for a comprehensive set of visualizations.
+  
+- **Bar Charts:**
+  - Visualized the distribution of time spent during different hours for both summer and non-summer periods.
+
+- **Time Series Analysis:**
+  - Explored temporal patterns using time series visualizations, offering insights into monthly trends.
+
+- **Pie Charts:**
+  - Presented a breakdown of time spent on YouTube during different hours, providing a visual summary of usage patterns.
 
 ## Data Cleaning<a name="data-cleaning"></a>
 
