@@ -26,11 +26,35 @@ This project is the project of the CS210 course at Sabancı University. The proj
 
 ## Motivation<a name="motivation"></a>
 
-...
+As a regular YouTube user, I was inspired for this project by my personal experience of spending a significant amount of time on the platform. YouTube has become an integral part of my daily routine; It serves as a versatile tool for a variety of activities, including listening to music and enhancing my learning experience by accessing educational content.
+
+The decision to analyze YouTube data stemmed from my desire to understand more deeply how I allocate my time on the platform. Realizing the impact this was having on my daily life, I sought to discover and uncover patterns in the data that could provide insights into my usage habits.
 
 ## Data Source<a name="data-source"></a>
 
-...
+For this project, the primary data source is derived from personal YouTube usage. The data was obtained using Google Takeout, a service that allows users to export their Google data. Specifically, I exported my YouTube data in JSON format, encapsulating a comprehensive record of my interactions and activities on the platform.
+
+### Data Collection Process
+
+1. **Google Takeout:**
+   - Utilized Google Takeout to request and download my YouTube data export.
+   - Chose the JSON format for the export to ensure a structured and readable representation of the data.
+
+2. **Data Conversion with Pandas:**
+   - Employed the Pandas library in Python to convert the exported JSON file into a Pandas DataFrame.
+   - Leveraged Pandas' data manipulation capabilities to structure the data in a way that facilitates analysis.
+
+### Dataset Details
+
+The resulting dataset ,including but not limited to:
+- Details about watched videos
+- Watch history
+- Time
+
+
+The dataset's JSON format allows for flexibility in exploration and analysis, enabling a nuanced examination of my YouTube usage patterns. The project aims to uncover insights into preferences, trends, and temporal aspects of interactions with the YouTube platform.
+
+This personal dataset serves as the foundation for the subsequent exploratory data analysis, hypothesis testing, and machine learning models employed in the project.
 
 ## Data Collection<a name="data-collection"></a>
 
