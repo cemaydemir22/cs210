@@ -123,7 +123,7 @@ Visualizations further illuminated the nuances of YouTube usage across different
 
 ### Machine Learning Model Predictions
 
-- **Decision Tree and Linear Regression:**
+- **Decision Tree and Logistic Regression:**
   - The machine learning models, including decision tree and linear regression, provided additional insights into predictive patterns.
   
 
